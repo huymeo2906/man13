@@ -1,0 +1,80 @@
+.unionIcon {
+  position: relative;
+  width: 168px;
+  height: 203px;
+}
+.unionWrapper {
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+}
+.progressIcon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.toDo {
+  position: relative;
+  line-height: 20px;
+}
+.progressParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.progressIcon2 {
+  position: relative;
+  width: 20px;
+  height: 20px;
+}
+.frameParent {
+  position: absolute;
+  top: 26px;
+  left: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+}
+.toggleChild {
+  position: absolute;
+  top: 166px;
+  left: 0;
+  background-color: var(--line);
+  width: 167px;
+  height: 1px;
+}
+.uplusParent {
+  position: absolute;
+  top: 175px;
+  left: 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.toggle {
+  position: relative;
+  border-radius: var(--br-3xs);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  width: 175px;
+  height: 203px;
+  max-width: 100%;
+  max-height: 100%;
+  overflow: auto;
+  text-align: left;
+  font-size: var(--body-s-14-sp-medium-size);
+  color: var(--body-text1);
+  font-family: var(--headline-16-medium);
+}

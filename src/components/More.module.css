@@ -1,0 +1,111 @@
+.frameChild {
+  position: relative;
+  width: 16px;
+  height: 8px;
+}
+.moreInner {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 var(--padding-27xl);
+}
+.usearchPlusIcon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.zoomIn {
+  position: relative;
+  line-height: 20px;
+}
+.usearchPlusParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.ctrl {
+  position: relative;
+  line-height: 12px;
+}
+.ctrlWrapper {
+  border-radius: var(--br-9xs);
+  background-color: var(--color-whitesmoke-100);
+  border: 1px solid var(--line);
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-9xs);
+}
+.ctrlWrapper,
+.frameContainer,
+.frameGroup {
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.frameContainer {
+  display: none;
+  align-items: flex-start;
+  gap: var(--gap-9xs);
+  font-size: var(--caption-10-regular-size);
+}
+.frameGroup {
+  background-color: var(--character-primaryinverse);
+  width: 290px;
+  display: flex;
+  align-items: center;
+  padding: var(--padding-7xs) var(--padding-base);
+  box-sizing: border-box;
+}
+.usearchPlusIcon1 {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+  opacity: 0;
+}
+.instanceParent {
+  background-color: var(--character-primaryinverse);
+  box-shadow: var(--line-bottom);
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.frameParent,
+.instanceParent,
+.instanceWrapper,
+.more {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.instanceWrapper {
+  background-color: var(--character-primaryinverse);
+  height: 40px;
+  justify-content: center;
+}
+.frameParent,
+.more {
+  overflow: hidden;
+  justify-content: flex-start;
+}
+.frameParent {
+  border-radius: var(--br-7xs);
+  background-color: var(--character-primaryinverse);
+  padding: var(--padding-7xs) 0 0;
+  gap: var(--gap-12xs);
+}
+.more {
+  position: relative;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  max-width: 100%;
+  max-height: 100%;
+  text-align: left;
+  font-size: var(--body-s-14-sp-medium-size);
+  color: var(--body-text1);
+  font-family: var(--headline-16-medium);
+}

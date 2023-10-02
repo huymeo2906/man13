@@ -1,0 +1,116 @@
+.iconnotiwarning,
+.ucloseIcon {
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.ucloseIcon {
+  border-radius: var(--br-80xl);
+  width: 24px;
+  height: 24px;
+}
+.iconnotiwarning {
+  width: 48px;
+  height: 48px;
+}
+.emailTittle,
+.massage {
+  align-self: stretch;
+  position: relative;
+}
+.emailTittle {
+  line-height: 24px;
+  font-weight: 600;
+}
+.massage {
+  font-size: var(--body-s-14-sp-medium-size);
+  line-height: 20px;
+  color: var(--body-text1);
+  display: none;
+  opacity: 0.8;
+}
+.emailTittleParent,
+.iconnotiwarningParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.iconnotiwarningParent {
+  gap: var(--gap-xs);
+}
+.keyboardArrowRightIcon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.text {
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+}
+.button,
+.button1 {
+  flex: 1;
+  border-radius: var(--br-7xs);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs) var(--padding-sm);
+}
+.button {
+  border: 1px solid var(--primary-default);
+  flex-direction: row;
+  gap: var(--gap-9xs);
+}
+.button1 {
+  background-color: var(--primary-default);
+  flex-direction: column;
+  color: var(--character-primaryinverse);
+}
+.buttonParent {
+  width: 222px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  font-size: var(--body-s-14-sp-medium-size);
+  color: var(--primary-default);
+}
+.frameParent,
+.notification {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.frameParent {
+  align-self: stretch;
+  align-items: center;
+  padding: 0 var(--padding-xs) 0 var(--padding-xl);
+  gap: var(--gap-5xl);
+}
+.notification {
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--character-primaryinverse);
+  box-shadow: var(--grey-shadows-6);
+  width: 393px;
+  align-items: flex-end;
+  padding: var(--padding-5xs) var(--padding-5xs) 36px 0;
+  box-sizing: border-box;
+  gap: var(--gap-9xs);
+  max-width: 100%;
+  max-height: 100%;
+  overflow: auto;
+  text-align: center;
+  font-size: var(--body-l-18-sp-semibold-18-size);
+  color: var(--theme-text-heading);
+  font-family: var(--headline-16-medium);
+}

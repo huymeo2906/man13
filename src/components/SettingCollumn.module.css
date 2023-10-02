@@ -1,0 +1,161 @@
+.dueDate {
+  position: relative;
+  line-height: 20px;
+  font-weight: 600;
+}
+.dueDateWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.vectorIcon {
+  position: relative;
+  width: 1.75px;
+  height: 8.75px;
+}
+.vectorParent {
+  position: absolute;
+  top: 6.13px;
+  left: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xs-5);
+}
+.vectorIcon2 {
+  position: absolute;
+  height: 54.33%;
+  width: 93.17%;
+  top: 22.83%;
+  right: 3.42%;
+  bottom: 22.83%;
+  left: 3.42%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  display: none;
+}
+.dueDate1,
+.settingsEthernet1 {
+  position: relative;
+  flex-shrink: 0;
+}
+.settingsEthernet1 {
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+}
+.dueDate1 {
+  line-height: 20px;
+  display: inline-block;
+  width: 146px;
+  opacity: 0.8;
+}
+.frameChild {
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--character-primaryinverse);
+  width: 10px;
+  height: 10px;
+}
+.switchInner {
+  position: absolute;
+  top: 7px;
+  left: 1px;
+  border-radius: var(--br-181xl);
+  background-color: var(--state-warning-default);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) var(--padding-11xs) var(--padding-11xs)
+    var(--padding-sm);
+}
+.switch {
+  position: relative;
+  width: 28px;
+  height: 28px;
+}
+.frameParent,
+.frameWrapper,
+.switchInner2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.frameParent {
+  border-radius: var(--br-7xs);
+  background-color: var(--color-gray-100);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.03);
+  align-items: center;
+  padding: var(--padding-9xs) var(--padding-3xs) var(--padding-9xs)
+    var(--padding-12xs);
+  gap: var(--gap-smi);
+}
+.frameWrapper,
+.switchInner2 {
+  align-items: flex-start;
+}
+.switchInner2 {
+  position: absolute;
+  top: 7px;
+  left: 1px;
+  border-radius: var(--br-181xl);
+  background-color: rgba(255, 255, 255, 0.3);
+  align-items: center;
+  padding: var(--padding-11xs) var(--padding-sm) var(--padding-11xs)
+    var(--padding-11xs);
+}
+.uplusIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frameParent5 {
+  flex: 1;
+  border-radius: var(--br-7xs);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.32);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-7xs) var(--padding-xs) var(--padding-7xs)
+    var(--padding-12xs);
+}
+.componentParent,
+.frameWrapper4,
+.settingCollumn {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameWrapper4 {
+  align-self: stretch;
+  flex-direction: row;
+}
+.componentParent,
+.settingCollumn {
+  flex-direction: column;
+  gap: var(--gap-7xs);
+}
+.settingCollumn {
+  position: relative;
+  border-radius: var(--br-7xs);
+  background-color: #575757;
+  box-shadow: var(--grey-shadows-5);
+  padding: var(--padding-base);
+  box-sizing: border-box;
+  gap: var(--gap-sm);
+  max-width: 100%;
+  max-height: 100%;
+  overflow: auto;
+  text-align: left;
+  font-size: var(--body-s-14-sp-medium-size);
+  color: var(--character-primaryinverse);
+  font-family: var(--headline-16-medium);
+}
